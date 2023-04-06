@@ -84,3 +84,18 @@ transition: 0.5s ease-in-out;
     height: 400px;
     transform: translate(-50%, -50%) scale(1) rotate(15deg);
 }
+.card .contenido{
+   position: relative; 
+   width: 50%;
+   left:20%;
+   padding: 20px 20px 20px 40px;
+   opacity: 0;
+   transition: 0.5s;
+   visibility: hidden;
+}
+.card:hover .contenido{
+    transition-delay: 0.75s;
+    opacity: 1;
+    visibility: visible;
+    left:0;
+}

@@ -85,7 +85,7 @@ transition: 0.5s ease-in-out;
     transform: translate(-50%, -50%) scale(1) rotate(15deg);
 }
 .card .contenido{
-   position: relative; 
+   position: absolute; 
    width: 50%;
    left:20%;
    padding: 20px 20px 20px 40px;
@@ -97,5 +97,26 @@ transition: 0.5s ease-in-out;
     transition-delay: 0.75s;
     opacity: 1;
     visibility: visible;
-    left:0;
+    left:20px;
+}
+.card .contenido h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    line-height: 1em;
+}
+.card .contenido p{
+    color: #fff;
+
+}
+.card .contenido a{
+    position: relative;
+    color:#111;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
 }
